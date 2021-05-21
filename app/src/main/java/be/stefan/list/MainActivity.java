@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.list);
         recyclerView.setHasFixedSize(false);
 
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
-        recyclerView.setLayoutManager(layoutManager);
+//        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
+//        recyclerView.setLayoutManager(layoutManager);
 
         PersonAdapter adapter = new PersonAdapter(people);
         recyclerView.setAdapter(adapter);
