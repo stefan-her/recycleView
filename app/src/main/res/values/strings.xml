@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">list</string>
+    <string name="recycleview">recycleView</string>
+    <string name="add_element">add element</string>
+</resources>
